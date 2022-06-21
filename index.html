@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="cackicatrice.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+
+
+    <div class="phone">
+    <div id="global">
+
+        <div class="head" id="head">
+            <input type="image" src="setting.png" id="img1" onclick="changeBG()">
+            <h2>Calicatrice</h2>
+        </div>
+
+        <div class="calcul" id="calcul">
+            <input type="text" name="text" id="sett2"> 
+            <table>
+                <tr>
+                    <td colspan="4">
+                        <div class="affichage" id="affichage">
+                          <input type="text" name="text" placeholder="0" id="sett">
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="btns" id="pourcentage" onclick="modu()">
+                            <span>%</span>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="btns" id="clearall" onclick="ms7all()">
+                            <span>CE</span>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="btns" id="clear" onclick="ms77()">
+                            <span>C</span>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="btns" id="clearlast" onclick="ms7()">
+                            <img src="delete.png" id="img2">
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="btns" id="inverse" onclick="fraq()">
+                            <span>1/x</span>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="btns" id="carre" onclick="puiss()">
+                            <span>x²</span>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="btns" id="racine" onclick="rass()">
+                            <span>√x</span>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="btns" id="diviser" onclick="dvs()">
+                            <span>÷</span>
+                        </div>
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+                        <div class="btns" id="sept" onclick="brk7()">
+                            <span>7</span>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="btns" id="huit" onclick="brk8()">
+                            <span>8</span>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="btns" id="neuf" onclick="brk9()">
+                            <span>9</span>
+                        </div>
+
+                    </td>
+
+                    <td>
+                        <div class="btns" id="multiplier" onclick="drb()">
+                            <span>x</span>
+                        </div>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="btns" id="quatre" onclick="brk4()">
+                            <span>4</span>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="btns" id="cinq" onclick="brk5()">
+                            <span>5</span>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="btns" id="six" onclick="brk6()">
+                            <span>6</span>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="btns" id="soustraction" onclick="n9s()">
+                            <span>-</span>
+                        </div>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="btns" id="un" onclick="brk1()">
+                            <span>1</span>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="btns" id="deux" onclick="brk2()">
+                            <span>2</span>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="btns" id="trois" onclick="brk3()">
+                            <span>3</span>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="btns" id="addition" onclick="jm3()">
+                            <span>+</span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="btns" id="negative" onclick="nepo()">
+                            <span>+/-</span>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="btns" id="zero" onclick="brk()">
+                            <span>0</span>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="btns" id="virgule" onclick="vrgl()">
+                            <span>.</span>
+                        </div>
+                    </td>
+
+
+                    <td>
+                        <div class="btns" id="egale" onclick="tosawi()">
+                            <span>=</span>
+                        </div>
+                    </td>
+
+                </tr>
+
+            </table>
+        </div>
+
+    </div>
+    </div>
+
+
+
+    <script src="cal.js"></script>
+                  
+</body>
+</html>
