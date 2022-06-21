@@ -1,0 +1,145 @@
+body{
+	height: 100%;
+	width: 100%;
+	
+}
+
+#head{
+	margin-left: 30px;
+	padding-top: 60px;
+	color: white;
+	font-family: arial;
+	display: flex;
+ -webkit-user-select: none; /* Safari */        
+ -moz-user-select: none; /* Firefox */
+ -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+#calcul{
+	margin-left: 25px;
+	margin-top: 20px;
+
+}
+
+#img1{
+	height: 15px;
+	width: 15px;
+	margin-top: 27px;
+	margin-left:4px;
+	margin-right:4px;
+}
+
+#img1:hover{
+	filter: brightness(1.5);
+}
+
+#global{
+	background: url(phone.png);
+	background-size: 100%;
+	width: 360px;
+	height: 600px;
+	border-radius: 10px;
+	position: absolute;
+	top: 80px;
+	left: 550px;
+}
+
+#sett2{
+	background-color: #202020;
+	text-align: right;
+	width: 300px;
+	height: 25px;
+	font-size: 0.9em;
+	color: grey;
+	border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  margin-left: 2.8px;
+}
+
+.affichage #sett{
+	background-color: #202020;
+	text-align: right;
+	width: 300px;
+	height: 42px;
+	margin-bottom: 10px;
+	font-size: 2.5em;
+	color: white;
+	border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: white;
+}
+
+::-ms-input-placeholder {
+  color: white;
+}
+
+.btns{
+	background-color: #3b3b3b;
+	border-radius: 4px;
+	width:  73.5px;
+	height: 38px;
+	text-align: center;
+	padding-top: 10px;
+	cursor: pointer;
+ -webkit-user-select: none; /* Safari */        
+ -moz-user-select: none; /* Firefox */
+ -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+
+}
+
+.btns span{
+	
+	font-size: 1.1em;
+	font-family: "arial";
+	color: white;
+}
+
+.btns:hover{
+	filter: brightness(1.8);
+}
+
+#img2{
+	margin-top: 5px;
+}
+
+#egale{
+	background-color: mediumvioletred;
+}
+
+#addition, #soustraction, #multiplier, #diviser, #racine, #carre, #inverse, #clearlast, #clear, #clearall, #pourcentage{
+	background-color: #323232;
+}
+
+
+#pourcentage,#carre, #inverse, #clear, #clearall, #multiplier{
+	font-size: 0.9em;
+}
+
+#addition, #soustraction, #diviser, #egale{
+	font-size: 1.2em;
+}
+
+#virgule{
+	font-weight: bolder;
+}
+
+
+
+
+
+
